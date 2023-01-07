@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Clock & Westminster chimes</title>
+	<link rel="stylesheet" href="main.css">
+<head>
+<body>
+	<!--<iframe src="http://free.timeanddate.com/clock/i5gnx5xm/n4879/szw600/szh600/hocbbb/hbw6/cf100/hgr0/fan2/fas20/fdi64/mqc000/mqs4/mql20/mqw2/mqd94/mhc000/mhs3/mhl20/mhw2/mhd94/mmc000/mml10/mmw1/mmd94/hml85/hmr7/hss1/hsl90/hsb30/hsw3" frameborder="0" width="600" height="600"></iframe>-->
+	
+	<div class="clock">
+        <div class="hr"></div>
+        <div class="min"></div>
+        <div class="sec"></div>
+        <div class="pin"></div>
+    </div>
+	<br><br><br><br>
+	<ul>
+		<li><input type="checkbox" id="enablePart1" name="Enable1" value="option1" onClick="toggleCheckboxOne()"> Enable Westminster Chimes Audios Every Hour</li>
+		<li><input type="checkbox" id="enablePart2" name="Enable2" value="option2" disabled onClick="toggleCheckboxTwo()"> Enable 30-minute mark Chimes</li>
+		<li><input type="checkbox" id="enablePart3" name="Enable3" value="option3" disabled> Enable 15-minute & 45-minute mark Chimes</li>
+		<li><p id="digital" style="font-size: 50px"></p></li>
+	</ul>
+	    <audio id="hourlyAudio" src="Hourly Mark.m4a"></audio>
+		<audio id="m15Audio" src="15 Minute Mark.m4a"></audio>
+		<audio id="m45Audio" src="45 Minute Mark.m4a"></audio>
+		<audio id="m30Audio" src="30 Minute Mark.m4a"></audio>
+		<audio id="strOne" src="100.m4a"></audio>
+		<audio id="strTwelve" src="1200.m4a"></audio>
+		<script src="back.js"></script>
+</body>
+</html>
