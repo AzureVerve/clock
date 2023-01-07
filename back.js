@@ -41,7 +41,7 @@ setInterval(() => {
 	if(minutes == 45 && seconds == 0){
 		playQuartTwo();
 	}
-	if(minutes == 30 && seconds == 0){
+	if(minutes == 33 && seconds == 0){
 		playHalf();
 	}
 });
