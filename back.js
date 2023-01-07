@@ -35,7 +35,7 @@ setInterval(() => {
 	if(minutes == 0 & seconds == 0){
 		playStrike(hour);
 	}
-	if(minutes == 20 && seconds == 0){
+	if(minutes == 15 && seconds == 0){
 		playQuartOne();
 	}
 	if(minutes == 45 && seconds == 0){
